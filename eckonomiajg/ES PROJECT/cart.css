@@ -1,0 +1,58 @@
+/* Style for the grid items (products) */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.add-to-cart-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+/* Cart Styles */
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cart-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cart-item p {
+    margin: 0;
+}
